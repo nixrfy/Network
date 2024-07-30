@@ -14,9 +14,6 @@ a{
 ul{
   list-style:none;
 }
-img{
-  max-width: 100%;
-}
 body{
   font-family: 'Lexend', sans-serif;
   font-size:16px;
@@ -124,22 +121,6 @@ body{
   padding-top: 40px; 
 }
 
-.FirstElement .profile-photo{
-  width: 450px;
-  height:  450px;
-  border-radius: 50%;
-  overflow: hidden;
-  border: 15px solid #ff0d00;
-  box-shadow: 5px 7px 25px rgba(0, 0, 0, 0.5)
-}
-profile-photo .img{
-  height: 100%;
-  width: 100%;
-  transition: 0.5s;
-}
-.FirstElement .profile-photo img:hover{
-  transform: scale(1.2);
-}
 .profile-text{
   max-width: 750px;
   display: flex;
